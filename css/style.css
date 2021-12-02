@@ -145,7 +145,14 @@
       width: 100%;
     }
   }
-  
+  /*Added the language section */
+  .knowledge .laguagueSection {
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    color: #707070;
+  }
+  /* Added the language section */
   .knowledge {
     border-top: 1px solid #ddd;
     margin: 2rem 0;
@@ -331,4 +338,10 @@
     width: 120px;
   }
   
+
+  .laguagueSection {
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+  }
   /*# sourceMappingURL=style.css.map */
