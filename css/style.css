@@ -350,12 +350,22 @@
     flex-direction:row;
     justify-content: space-around;
     padding-top:2%;
+    overflow: hidden;
   }
 
-  #Navbar > a {
+  #Navbar  a {
     font-size:16px;
     text-decoration: none;
     color:#060553;
     font-weight: 600;
   }
+
+  /* .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .sticky + .content {
+    padding-top: 60px;
+  } */
   /*# sourceMappingURL=style.css.map */
